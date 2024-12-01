@@ -1,0 +1,86 @@
+Variazione mesh per studiarne la variazione di Cd con il numero di celle.
+
+MESH1
+- Celle = 988'455
+- blockMeshDict: (45 8 9) --> Lv0 = 1m
+- snappyHexMeshDict:
+	refinements audi=5, car=(4 4), box=1 2 3 5, distance=5
+	resolveFeatureAngle 60
+	nSmoothPatch 3
+	tolerance 1.5
+	nSolveIter 120
+	nRelaxIter 10
+	nFeatureSnapIter 40
+	featureAngle 120
+	nLayerIter 100
+- log.checkMesh		OK
+- log.snappyHexMesh	OK
+- Cd = 
+
+MESH2 DA FARE
+- Celle = 
+- blockMeshDict: (60 11 12) --> Lv0 = 0.75 m
+- snappyHexMeshDict:
+	refinements audi=5, car=(4 4), box=1 2 3 5, distance=5
+	resolveFeatureAngle 60
+	nSmoothPatch 3
+	tolerance 1.5
+	nSolveIter 120
+	nRelaxIter 10
+	nFeatureSnapIter 40
+	featureAngle 120
+	nLayerIter 100
+- log.checkMesh		
+- log.snappyHexMesh	
+- Cd = 
+
+MESH3 DA FARE
+- Celle = 
+- blockMeshDict: (75 13 15) --> Lv0 = 0.6 m
+- snappyHexMeshDict:
+	refinements audi=5, car=(4 4), box=1 2 3 5, distance=5
+	resolveFeatureAngle 60
+	nSmoothPatch 3
+	tolerance 1.5
+	nSolveIter 120
+	nRelaxIter 10
+	nFeatureSnapIter 40
+	featureAngle 120
+	nLayerIter 100
+- log.checkMesh		
+- log.snappyHexMesh	
+- Cd = 
+
+
+MESH4 DA FARE
+- blockMeshDict: (90 16 18) --> Lv0 = 0.5 m
+- snappyHexMeshDict:
+	refinements audi=5, car=(4 4), box=1 2 3 5, distance=5
+	resolveFeatureAngle 80
+	nSmoothPatch 3
+	tolerance 1.5
+	nSolveIter 150
+	nRelaxIter 10
+	nFeatureSnapIter 50
+	featureAngle 130
+	nLayerIter 100
+- log.checkMesh
+- log.snappyHexMesh
+- Cd = 
+
+
+MESH5 DA FARE
+- blockMeshDict: (100 18 20) --> Lv0 = 0.45 m
+- snappyHexMeshDict:
+	refinements audi=5, car=(4 4), box=1 2 3 5, distance=5
+	resolveFeatureAngle 80
+	nSmoothPatch 3
+	tolerance 1.5
+	nSolveIter 150
+	nRelaxIter 10
+	nFeatureSnapIter 50
+	featureAngle 130
+	nLayerIter 100
+- log.checkMesh
+- log.snappyHexMesh
+- Cd = 
